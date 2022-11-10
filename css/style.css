@@ -1,20 +1,17 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 header {
   background-color: rgb(141, 161, 247);
   position: sticky;
   top: 0;
   z-index: 2;
+}
+
+body,
+header {
   font-family: "Montserrat", sans-serif;
 }
 
 body {
   background-color: beige;
-  font-family: "Montserrat", sans-serif;
 }
 
 .container {
