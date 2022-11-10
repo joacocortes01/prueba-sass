@@ -1,3 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+header {
+  background-color: rgb(141, 161, 247);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: beige;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  background-color: beige;
+}
+
+.navbar-brand {
+  color: lemonchiffon;
+  font-size: large;
+  font-weight: 400;
+}
+
+.nav-link {
+  color: white;
+}
+
+section {
+  margin-top: 2rem;
+}
+
+#inicio {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.parrafo {
+  font-size: 1.5rem;
+}
+
+#aviso {
+  margin-top: 2rem;
+}
+
+.footer {
+  background-color: rgb(141, 161, 247);
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+
+.footer-sm {
+  background-color: rgb(141, 161, 247);
+  color: white;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.footer-sm__icons {
+  background-color: rgb(141, 161, 247);
+  padding-bottom: 1rem;
+}
+
+.footer_img {
+  background-color: rgb(141, 161, 247);
+}
+
+.footer-bottom__copyright {
+  background-color: rgb(141, 161, 247);
+  text-align: center;
+  color: white;
+  font-weight: 400;
+}
 
 /*# sourceMappingURL=style.css.map */
